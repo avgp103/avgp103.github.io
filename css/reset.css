@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'SFProDisplay-Regular';
+    src: url(../fonts/SF-UI-Display-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SFProDisplay-Bold';
+    src: url(../fonts/SF-UI-Display-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'SFProDisplay-Light';
+    src: url(../fonts/SF-UI-Display-Light.ttf)
+}
+
+@font-face {
+    font-family: 'SFProDisplay-SemiBold';
+    src: url(../fonts/SF-UI-Display-Semibold.ttf)
+}
+
+@font-face {
+    font-family: 'SF-Pro-Display-Heavy';
+    src: url(../fonts/SF-Pro-Display-Heavy.otf)
+}
+
+@font-face {
+    font-family: 'UTM AvoBold';
+    src: url(../fonts/UTM-AvoBold.ttf)
+}
+
+@font-face {
+    font-family: 'UTM AvoBold';
+    src: url(../fonts/UTM-AvoBold.ttf)
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
+
+a:hover {
+    transition: 400ms;
+}
+
+body {
+    font-family: 'SFProDisplay-Regular' !important;
+    background-color: rgba(0,0,0,0.87);
+}
+
+.row .col.s2 {
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}

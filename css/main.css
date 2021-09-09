@@ -1,0 +1,442 @@
+#main {
+    width: 1180px;
+    margin: 0 auto !important;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.ad-banner {
+    max-width: -webkit-fill-available;
+    height: auto;
+    margin-top: 57px; /* Height của Nav là 57px */
+    padding: 25px 0;
+}
+
+.ad-banner-small {
+    max-width: -webkit-fill-available;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.carousel-item {
+    height: 550px;
+}
+
+.carousel-caption {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    background-image: linear-gradient(-180deg,rgba(0,0,0,0) 0,#010101 100%);
+}
+
+.text-slider {
+    padding: 150px 30px 30px !important;
+}
+
+.text-slider h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-family: "SF-Pro-Display-Heavy";
+}
+
+.text-slider h3 {
+    color: #9b9b9b;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.carousel-caption a {
+    color: white;
+}
+
+.carousel-caption h2 {
+    font-weight: bolder;
+    line-height: 1.35em;
+}
+
+.top-carousel {
+    top: 0;
+    padding: 15px 0 0 15px;
+}
+
+.top-carousel img {
+    height: 25px;
+}
+
+#view-now {
+    position: absolute;
+    bottom: 38px;
+    right: 30px;
+    z-index: 3;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 10px 9px 20px;
+}
+
+#view-now .fas {
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.hvr-rectangle-out {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition-duration: .3s;
+    padding: 7px 14px;
+}
+
+.hvr-rectangle-out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ff6500;
+    transform: scale(0);
+    transition-duration: .4s;
+    border-radius: 10px;
+}
+
+.hvr-rectangle-out:hover:before {
+    transform: scale(1);
+}
+
+.carousel-control-next .fas, .carousel-control-prev .fas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    width: 40px;
+    height: 70px;
+    text-align: center;
+    color: white !important;
+    font-size: 20px;
+} /* Slide Next and Preview Icon */
+
+.carousel-control-next .fas {
+    border-radius: 3px 0 0 3px;
+}
+
+.carousel-control-prev .fas {
+    border-radius: 0 3px 3px 0;
+}
+
+.box-img {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.thumb-img .global-figure {
+    position: relative;
+    z-index: 1;
+}
+
+.global-figure img {
+    width: 200px;
+    height: auto;
+    opacity: .8;
+    margin: 0 5px;
+    transition: visibility .5s ease-in, opacity .5s ease-in;
+    border-radius: 5px;
+}
+
+.global-figure a img:hover {
+    opacity: 1;
+    transition: visibility .5s ease-in, opacity .5s ease-in;
+}
+
+.box-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.box-icon img {
+    height: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title h4 a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'SFProDisplay-Light';
+    height: 42px;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.title h4 a:hover {
+    color: #ff6500;
+}
+
+.title h3 {
+    color: #fff;
+    font-family: 'SFProDisplay-Bold';
+    font-size: 22px;
+}
+
+.main {
+    margin-top: 57px !important;
+    padding: 25px 0;
+}
+
+.box-img {
+    margin-bottom: 15px;
+}
+
+.box-img img {
+    border-radius: 5px;
+}
+
+.box-image-tv img {
+    width: 180px !important;
+    margin-bottom: 20px;
+}
+.package-chanel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px 0!important;
+    background: #2a2a2a;
+}
+
+.package-title {
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    background: #0a0a0a;
+}
+
+.package-title:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(#000)) no-repeat bottom;
+    background: linear-gradient(180deg,transparent,#000) no-repeat bottom;
+    bottom: 0;
+    z-index: 1;
+}
+
+.package-title span {
+    bottom: 20px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 2;
+    color: #FFF;
+    display: block;
+    font-family: 'SFProDisplay-Bold';
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 1.3em;
+}
+
+.package-label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background: linear-gradient(96.18deg,#ff5c2c,#e82d12);
+    border-radius: 4px;
+    padding: 3px 10px;
+    color: #fff;
+    z-index: 5;
+}
+
+.package-content {
+    width: calc(100% - 270px);
+    padding: 30px;
+    height: 290px;
+}
+
+.divide {
+    border: 1px solid hsla(0,0%,100%,.5);
+    margin: 20px 0;
+}
+
+.description {
+    height: fit-content;
+    overflow: hidden;
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+.description h3 {
+    font-weight: 700!important;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.description ul li {
+    list-style: none;
+}
+
+.description ul li::before {
+    content: "";
+    position: absolute;
+    left: 24%;
+    width: 1em;
+    height: 1em;
+    background: url('https://fptplay.vn/images/mua-goi/check.png') no-repeat;
+}
+
+.see-more {
+    cursor: pointer;
+    color: #ff6500;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.sp-area {
+    color: #fff;
+}
+
+.sp-area ul {
+    margin-top: 5px;
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.sp-area ul li img {
+    padding-left: 10px !important;
+    height: 22px;
+}
+
+.sp-area a {
+    background: #ce282a;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'SFProDisplay-Bold';
+    color: #fff;
+    padding: 10px 20px;
+    transition: 300ms;
+}
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.right a:hover {
+    color: #fff!important;
+    background: #aa2123;
+}
+
+#footer {color:#fff;}
+
+.footer-menu {
+    border-bottom: 1px solid #636363;
+    padding-bottom: 10px;
+    margin: 15px 0 12px;
+}
+
+.text-gray {
+    color: #9b9b9b !important;
+}
+
+.menu-1, .menu-2 {
+    display: flex;
+}
+
+.menu-1 {
+    margin-left: -35px;
+}
+
+.menu-2 {
+    width: 190px;
+}
+
+.menu-1 li a {
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+.menu-2 img {
+    height: 22px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-logo {
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.footer-logo a {
+    margin-top: 10px;
+}
+
+.footer-menu li {
+    padding: 0 5px;
+}
+
+.legal {
+    font-size: 14px;
+}
+
+.social {
+    margin-bottom: 7px;
+}
+
+.social a {
+    width: 40px;
+    height: 40px;
+    transition: 0s;
+    background-size: cover !important;
+    display: inline-block;
+}
+
+.social ul li {
+    list-style: none !important;
+}
+
+.social .fb {
+    background: url('https://fptplay.vn/assets/images/icon-fb.png');
+}
+
+.sp-info {
+    margin-top: 5px;
+}
+
+.sp-info ul li span {
+    background: #ff6500;
+    border-radius: 20px;
+    padding: 10px 18px 10px 18px;
+}
+
+.sp-info ul li {
+    list-style: none;
+    margin-bottom: 30px;
+}
